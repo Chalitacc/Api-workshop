@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/countries.css" />
+  </head>
+  <body>
+    <header class="countries-header">
+      <span class="header__icon-container">
+        <i class="fa-solid fa-map-location-dot fa-4x header__logo"></i>
+      </span>
+      <h1 class="countries-header__title">Explore Countries!</h1>
+    </header>
+
+    <main>
+      <div class="back-button">
+        <a href="../../index.html"></a>
+        <i class="fa-regular fa-circle-left fa-4x back-button__logo"></i>
+      </div>
+      <div class="explore-countries">
+        <form class="search-form">
+          <label for="search">Country Name:</label>
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Enter Country name"
+            class="search-form__input"
+          />
+          <button type="submit" class="search-form__submit-button">
+            Search
+          </button>
+        </form>
+        <p class="search-form__error-message">Error Message</p>
+
+        <!-- API display -->
+        <div class="country-card-container">
+          <span class="country-card__image"></span>
+
+          <!-- shows all the details of the country -->
+          <div class="country-card">
+            <ul class="country-card__list"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
