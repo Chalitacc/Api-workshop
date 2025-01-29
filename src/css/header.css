@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-small);
+  padding: var(--spacing-large) var(--spacing-medium);
+  color: var(--color-text-dark);
+}
+.header__title {
+  text-align: center;
+  font-family: Volkhov-Regular;
+}

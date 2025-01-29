@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fonts.css" />
+
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>TravelWise</title>
+  </head>
+  <body>
+    <header class="home-header">
+      <span class="home-header__icon-container">
+        <img src="./src/assets/icons/main-logo.svg" alt="Website main logo" />
+      </span>
+      <h1 class="home-header__title">
+        Welcome to TravelWise: Your Ultimate Travel Companion!
+      </h1>
+    </header>
+    <main>
+      <div class="features-container">
+        <!-- Card one -->
+        <div class="card">
+          <span class="card__image-container">
+            <i class="fa-solid fa-map-location-dot fa-6x card__logo"></i>
+          </span>
+          <h2 class="card__title">Explore Countries</h2>
+          <p class="card__description">
+            Click to discover detailed information about countries, including
+            population, languages, currency, and more. Search for your desired
+            destination to learn everything you need to know.
+          </p>
+          <a class="card__link" href="./pages/countries.html">Explore</a>
+        </div>
+        <!-- Card two -->
+        <div class="card">
+          <span class="card__image-container">
+            <i class="fa-solid fa-cloud-sun-rain fa-6x card__logo"></i>
+          </span>
+          <h2 class="card__title">Weather Forecast</h2>
+          <p class="card__description">
+            Click to get real-time weather updates and forecasts. Search for any
+            location to stay informed about current conditions, temperature,
+            humidity, and more.
+          </p>
+          <a class="card__link" href="./pages/weather.html">Check weather</a>
+        </div>
+        <!-- Card three -->
+        <div class="card">
+          <span class="card__image-container">
+            <i class="fa-solid fa-hand-holding-dollar fa-6x card__logo"></i>
+          </span>
+          <h2 class="card__title">Currency Converter</h2>
+          <p class="card__description">
+            Click to convert between different currencies with real-time
+            exchange rates. Easily find and compare rates for your upcoming
+            trips or financial needs.
+          </p>
+          <a class="card__link" href="./pages/currency.html">Convert now</a>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/app.js" type="module"></script>
+  </body>
+</html>
