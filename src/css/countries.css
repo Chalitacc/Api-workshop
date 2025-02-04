@@ -90,17 +90,17 @@ main {
 .country-card__list-title {
   font-family: Volkhov-Regular;
 }
-.country-card__image {
+/* .country-card__image {
   width: 100%;
   height: 100%;
-  background-image: url("../assets/images/world-map.jpg");
+  background-image: url("../assets/image/map.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius-medium);
-}
+} */
 .country-card {
-  display: none;
+  /* display: none; */
   width: 60%;
   height: 100%;
   padding: var(--spacing-medium);
@@ -110,6 +110,8 @@ main {
 }
 .country-card__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: var(--spacing-small);
 }
